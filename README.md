@@ -1,6 +1,7 @@
 # dunkedin
 
 LinkedIn job search and automated application filling using playwright and gemini flash-lite and CUA in preview.
+You would see configurable variables (like number of tabs to open in parallel) at the top of scripts listed below to run.
 
 ## Setup
 
@@ -28,7 +29,7 @@ uv run job_search.py
 # 4. Extract job metadata and apply links
 uv run extract_jobs_combined.py
 
-# 5. Identify ATS systems and create greenhouse_collected table
+# 5. Identify ATS systems and create a table each for a each ATS system of interest.
 uv run ats_identify.py
 
 # 6. Run form filling automation (Gemini CUA)
