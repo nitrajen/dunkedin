@@ -1,6 +1,10 @@
 # dunkedin
 
-LinkedIn job search and automated application filling using playwright and gemini flash-lite and CUA (preview model).  
+LinkedIn job search and application pre-filling using playwright and gemini flash-lite and CUA (preview model).  
+
+After pre-filling each application form, you would either submit (status tracked as `applied`) or close the tab without submitting (status tracked as `not_applied`).
+After one form is done, the next form opens and the cycle continues for job links parsed from linkedin.
+
 You would see configurable variables (like number of tabs to open in parallel) at the top of scripts listed below to run.
 
 ## Setup
