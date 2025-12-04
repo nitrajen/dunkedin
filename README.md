@@ -2,8 +2,8 @@
 
 LinkedIn job search and application pre-filling using playwright and gemini flash-lite and CUA (preview model).  
 
-After pre-filling each application form, you would either submit (status tracked as `applied`) or close the tab without submitting (status tracked as `not_applied`).
-After one form is done, the next form opens and the cycle continues for job links parsed from linkedin.
+After pre-filling each application form the agent pauses. At this point, you would *review* and either submit (status tracked as `applied`) or close the tab without submitting (status tracked as `not_applied`).
+After one form is done, the next form opens and the cycle continues for all the job links parsed from linkedin or it reaches the MAX count you set in the script.
 
 You would see configurable variables (like number of tabs to open in parallel) at the top of scripts listed below to run.
 
