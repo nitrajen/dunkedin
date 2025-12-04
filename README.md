@@ -1,6 +1,6 @@
 # dunkedin
 
-LinkedIn job search and automated application filling using Gemini CUA.
+LinkedIn job search and automated application filling using playwright and gemini flash-lite and CUA in preview.
 
 ## Setup
 
