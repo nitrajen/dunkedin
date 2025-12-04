@@ -1,0 +1,79 @@
+{
+  "candidate_profile": {
+    "personal_info": {
+      "full_name": "Your Full Name",
+      "first_name": "First",
+      "last_name": "Last",
+      "legal_first_name": "First",
+      "legal_last_name": "Last",
+      "preferred_name": "First",
+      "email": "your.email@example.com",
+      "country_code": "+1",
+      "phone": "555-123-4567",
+      "city": "City",
+      "state_province": "State",
+      "country": "United States",
+      "postal_code": "12345",
+      "current_location_freeform": "City, State, Country"
+    },
+    "online_profiles": {
+      "linkedin": "https://www.linkedin.com/in/your-profile/",
+      "github": "https://github.com/your-username",
+      "portfolio_site": "https://your-portfolio.com/"
+    },
+    "work_authorization": {
+      "work_country": "United States",
+      "legally_authorized": true,
+      "requires_sponsorship_now_or_future": false,
+      "visa_type": "N/A or visa type",
+      "visa_valid_until": "YYYY-MM-DD",
+      "additional_comments": ""
+    },
+    "eeo": {
+      "gender": "Male/Female/Non-binary/Prefer not to say",
+      "race_ethnicity": "Your ethnicity",
+      "veteran_status": "Not a veteran",
+      "disability_status": "No disability",
+      "willing_to_disclose": true
+    },
+    "preferences": {
+      "earliest_start_date": "Immediately",
+      "notice_period_days": 0,
+      "willing_to_relocate": true,
+      "preferred_locations": [],
+      "work_mode": ["On-site", "Remote", "Hybrid"],
+      "preferred_employment_types": ["Full-time"],
+      "travel_preference": "Open to travel"
+    },
+    "resume_files": {
+      "primary": {
+        "path": "/path/to/your/resume.pdf",
+        "description": "Primary resume PDF"
+      }
+    },
+    "professional_summary": {
+      "headline": "Your Job Title - key skills",
+      "short_summary": "Brief 1-2 sentence summary of your expertise.",
+      "long_summary": "Longer 3-4 sentence summary of your experience and skills."
+    },
+    "answer_templates": {
+      "work_authorization_yes_no": {
+        "legally_authorized_to_work_in_us": "Yes",
+        "require_sponsorship_now_or_in_future": "No"
+      },
+      "eeo": {
+        "gender": "Your gender",
+        "race_ethnicity": "Your ethnicity",
+        "veteran": "No",
+        "disability": "No"
+      },
+      "availability": {
+        "when_can_you_start": "Immediately",
+        "relocate": "Yes/No",
+        "work_mode_preference": "Open to on-site, remote, or hybrid roles."
+      },
+      "short_about_me": "Brief professional summary.",
+      "generic_cover_letter_intro": "Your generic cover letter intro paragraph."
+    }
+  }
+}
