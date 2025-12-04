@@ -1,0 +1,32 @@
+SUMMARY
+Brief professional summary describing your expertise and what you specialize in.
+
+EXPERIENCE
+
+Company Name (Start Date – End Date)
+Job Title
+Location
+
+• Bullet point describing key achievement or responsibility
+• Another bullet point with quantifiable impact
+• Technical skills and tools used
+
+Previous Company (Start Date – End Date)
+Job Title
+Location
+
+• Key responsibilities and achievements
+• Technologies used
+
+TECHNICAL SKILLS & INTERESTS
+
+Languages: Python, JavaScript, etc.
+Frameworks: FastAPI, React, etc.
+Cloud: AWS, GCP, Azure
+Databases: PostgreSQL, MongoDB, etc.
+Tools: Docker, Kubernetes, Terraform, etc.
+
+EDUCATION
+
+University Name
+Degree, Major (Graduation Year)

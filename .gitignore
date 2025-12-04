@@ -1,0 +1,41 @@
+# Environment and secrets
+.env
+.env.*
+
+# Personal/sensitive data
+candidate_profile.json
+gemini_playwright/candidate_profile.json
+experience_info.txt
+gemini_playwright/experience_info.txt
+
+# Session data
+data/linkedin_session.json
+data/*.db
+
+# Output and temp files
+gemini_playwright/tmp/
+gemini_playwright/output/
+gemini_playwright/screenshots/
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# uv
+.python-version
+uv.lock
